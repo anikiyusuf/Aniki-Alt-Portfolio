@@ -1,0 +1,107 @@
+.tools-icons{
+     color:hsl(277, 100%, 62%);
+     padding: 3rem;
+     margin: 5rem auto;
+     width:60%;
+     border-radius: .7rem;
+     background: #fafaff;
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+     transition: 0.3s;
+  
+   
+}
+.tools-icons:hover{
+    background:hsl(277, 100%, 62%); 
+    color: aliceblue;
+    transition: 3s;
+
+}
+
+
+.tools-icons > h2{
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+.svg-icon{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:.6rem;
+    margin:0 2rem;
+    padding-top: 2rem;
+}
+
+.svg-icon >p{
+    background: #fafaff;
+    width: 100%;
+    padding:2rem;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+}
+
+@media (max-width:992px){
+    .tools-icons{
+    
+        padding: 3rem;
+        margin: 5rem auto;
+        width:60%;
+      
+       
+     
+      
+   }
+   
+
+}
+
+@media (max-width:768px){
+    .tools-icons{
+    
+        padding: 2rem;
+        margin: 5rem auto;
+        width:68%;
+        place-items: center;
+       
+     
+      
+   }
+   
+
+}
+
+
+@media (max-width:600px){
+    .tools-icons{
+        padding: 2rem;
+        margin: 5rem auto;
+        width:60%;
+        place-items: center;
+       
+     
+      
+   }
+   .svg-icon >p{
+    
+    width: 100%;
+    padding:1rem;
+    place-items: center;
+    text-align: center;
+   
+
+} 
+.svg-icon{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:.5rem;
+    margin:0 1rem;
+    padding-top: 2rem;
+}
+
+}
+
+
+
+
+

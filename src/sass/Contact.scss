@@ -1,0 +1,80 @@
+.contact-section{
+    margin: auto;
+    color:hsl(277, 100%, 62%);
+    padding: 2rem 3rem;
+    margin:2rem auto;
+    width:80%;
+    background: #fafaff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-section >.touch > h3{
+    text-align: center;
+}
+.contact-section > .touch > .address > p{
+    text-align: center;
+}
+.contact-icon{
+    display: flex;
+   
+}
+.contact-section:hover{
+    background:hsl(277, 100%, 62%);;
+    color: white;
+    transition: 2s;
+}
+
+@media (max-width:992px){
+    .contact-section{
+        width: 80%;
+        padding:2rem auto;
+    }
+    .contact-section >.touch > h3{
+        text-align: center;
+    }
+    .contact-section > .touch > .address > p{
+        text-align: center;
+    }
+   
+    .contact-icon{
+        display: grid;
+        grid-template-columns: repeat(2 ,1fr);
+    }
+}
+
+
+@media (max-width:768px){
+    .contact-icon{
+        display: flex;
+        flex-direction:column-reverse;
+        
+    }
+   
+    .contact-section >.touch > h3{
+        text-align: center;
+    }
+    .contact-section > .touch > .address > p{
+        text-align: center;
+    }
+}
+
+
+@media (max-width:600px){
+    .contact-section{
+        width: 80%;
+    }
+    .contact-section > .touch > .address > p{
+        text-align: center;
+        font-size: .6rem;
+        padding-left:2rem ;
+    }
+
+   .contact-icon{
+    display:flex;
+    font-size: .7rem;
+    
+    
+   }
+}
