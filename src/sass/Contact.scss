@@ -16,10 +16,19 @@
 .contact-section > .touch > .address > p{
     text-align: center;
 }
+
 .contact-icon{
     display: flex;
    
 }
+// .contact-icon > p >a{
+//     text-decoration: none;
+//     color:hsl(277, 100%, 62%);
+// }
+// .contact-icon > p > a:hover{
+//     text-decoration: none;
+//     color:white;
+// }
 .contact-section:hover{
     background:hsl(277, 100%, 62%);;
     color: white;
