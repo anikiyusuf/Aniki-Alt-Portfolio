@@ -2,10 +2,10 @@ import React from 'react'
 // import { Link }  from "react-router-dom"
 import active from "../svg/active-states.jpg"
 import desktopdesign from "../svg/desktop-design-completed.jpg"
-import desktoppreview from "../svg/desktop-preview-two.jpg"
 import desktop from "../svg/desktop-preview.jpg"
 import desktopdesignadvice from "../svg/desktop-design-advice.jpg"
 import tittac from "../svg/tic-tac.jpg"
+import manage  from "../svg/desktop-preview-land.jpg"
 import "../sass/Projects.scss"
 
 export default function Project() {
@@ -37,11 +37,11 @@ export default function Project() {
       </div>
 
       <div className="project-three">
-        <img src={desktoppreview} alt="" />
-           <h4>Chat Illustrator</h4>
+        <img src={manage} alt="" />
+           <h4>Manage Land page</h4>
         <div className="three-link">
-           <p><a href="https://github.com/anikiyusuf/chat-app-css-illustration-master"  target="_blank" rel="noopener noreferrer">Github</a></p>
-           <p><a href="https://anikiyusuf.github.io/chat-app-css-illustration-master/" target="_blank" rel="noopener noreferrer">Live</a></p>
+           <p><a href="https://github.com/anikiyusuf/manage-landing-page"  target="_blank" rel="noopener noreferrer">Github</a></p>
+           <p><a href="https://anikiyusuf.github.io/manage-landing-page/" target="_blank" rel="noopener noreferrer">Live</a></p>
         </div>
       </div>
 
