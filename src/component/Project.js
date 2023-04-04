@@ -32,7 +32,7 @@ export default function Project() {
               <h4>Recipe App</h4>
              <div className="two-link">
               <p><a href="https://https://github.com/anikiyusuf/client" target="_blank" rel="noopener noreferrer">Github</a></p>
-              <p><a href="https://https://me-recipe-app.netlify.app/" target="_blank" rel="noopener noreferrer">Live</a></p>
+              <p><a href="https://https://me-recipe-app.netlify.app" target="_blank" rel="noopener noreferrer">Live</a></p>
             </div>
       </div>
 
@@ -41,7 +41,7 @@ export default function Project() {
            <h4>Manage Land page</h4>
         <div className="three-link">
            <p><a href="https://github.com/anikiyusuf/manage-landing-page"  target="_blank" rel="noopener noreferrer">Github</a></p>
-           <p><a href="https://anikiyusuf.github.io/manage-landing-page/" target="_blank" rel="noopener noreferrer">Live</a></p>
+           <p><a href="https://anikiyusuf.github.io/manage-landing-page" target="_blank" rel="noopener noreferrer">Live</a></p>
         </div>
       </div>
 
@@ -59,7 +59,7 @@ export default function Project() {
             <h4>Transport & Logistics</h4>
         <div className="five-link">
            <p><a href="https://https://github.com/anikiyusuf/nupat-app" target="_blank" rel="noopener noreferrer">Github</a></p>
-           <p><a href="https://https://transport-logistics-nupat.netlify.app/" target="_blank" rel="noopener noreferrer">Live</a></p>
+           <p><a href="https://https://transport-logistics-nupat.netlify.app" target="_blank" rel="noopener noreferrer">Live</a></p>
         </div>
       </div>
         <div className="project-six">
@@ -67,7 +67,7 @@ export default function Project() {
               <h4>Chat Bot </h4>
            <div className="six-link">
               <p><a href="https://https://github.com/anikiyusuf/Restaurant-Chatbot" target="_blank" rel="noopener noreferrer">Github</a></p>
-              <p><a href="https://https://nikki-restaurant-chatbot.onrender.com/" target="_blank" rel="noopener noreferrer">Live</a></p>
+              <p><a href="https://https://nikki-restaurant-chatbot.onrender.com" target="_blank" rel="noopener noreferrer">Live</a></p>
            </div>
          </div>
      </div>
