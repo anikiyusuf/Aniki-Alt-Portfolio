@@ -1,10 +1,10 @@
 import React from 'react'
 // import { Link }  from "react-router-dom"
 import active from "../svg/active-states.jpg"
-import desktopdesign from "../svg/desktop-design-completed.jpg"
+
 import desktop from "../svg/desktop-preview.jpg"
-import desktopdesignadvice from "../svg/desktop-design-advice.jpg"
-import tittac from "../svg/tic-tac.jpg"
+
+
 import manage  from "../svg/desktop-preview-land.jpg"
 import "../sass/Projects.scss"
 
@@ -28,11 +28,11 @@ export default function Project() {
       
 
       <div className="project-two">
-             <img src={desktopdesign} alt="" />
-              <h4>Tip Calculator</h4>
+             <img src="Best-Ever-Meatloaf.jpg" alt="" />
+              <h4>Recipe App</h4>
              <div className="two-link">
-              <p><a href="https://github.com/anikiyusuf/tip-calculator-app-main" target="_blank" rel="noopener noreferrer">Github</a></p>
-              <p><a href="https://anikiyusuf.github.io/tip-calculator-app-main/" target="_blank" rel="noopener noreferrer">Live</a></p>
+              <p><a href="https://https://github.com/anikiyusuf/client" target="_blank" rel="noopener noreferrer">Github</a></p>
+              <p><a href="https://https://me-recipe-app.netlify.app/" target="_blank" rel="noopener noreferrer">Live</a></p>
             </div>
       </div>
 
@@ -55,19 +55,19 @@ export default function Project() {
       </div>
 
       <div className="project-five">
-        <img src={desktopdesignadvice} alt="" />
-            <h4>Advice App</h4>
+        <img src="SeaContainer.png" alt="" />
+            <h4>Transport & Logistics</h4>
         <div className="five-link">
-           <p><a href="https://github.com/anikiyusuf/advice-generator-app-main-Day-17-18" target="_blank" rel="noopener noreferrer">Github</a></p>
-           <p><a href="https://anikiyusuf.github.io/advice-generator-app-main-Day-17-18/" target="_blank" rel="noopener noreferrer">Live</a></p>
+           <p><a href="https://https://github.com/anikiyusuf/nupat-app" target="_blank" rel="noopener noreferrer">Github</a></p>
+           <p><a href="https://https://transport-logistics-nupat.netlify.app/" target="_blank" rel="noopener noreferrer">Live</a></p>
         </div>
       </div>
         <div className="project-six">
-           <img src={tittac} alt="" />
-              <h4>Tit-Tac Game </h4>
+           <img src="chatbot.png" alt="" />
+              <h4>Chat Bot </h4>
            <div className="six-link">
-              <p><a href="https://github.com/anikiyusuf/my-tictac" target="_blank" rel="noopener noreferrer">Github</a></p>
-              <p><a href="https://tictachgame.netlify.app/" target="_blank" rel="noopener noreferrer">Live</a></p>
+              <p><a href="https://https://github.com/anikiyusuf/Restaurant-Chatbot" target="_blank" rel="noopener noreferrer">Github</a></p>
+              <p><a href="https://https://nikki-restaurant-chatbot.onrender.com/" target="_blank" rel="noopener noreferrer">Live</a></p>
            </div>
          </div>
      </div>

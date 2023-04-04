@@ -40,7 +40,7 @@ function Navbar(){
                    <li><Link to="#project" style={{textDecoration:"none",color:"hsl(277, 100%, 62%)" ,fontWeight:"500"}}>Projects</Link></li>
                    <li><Link to="#skill" style={{textDecoration:"none",color:"hsl(277, 100%, 62%)" ,fontWeight:"500"}}>Skills</Link></li>
                    <li><Link to="#contact" style={{textDecoration:"none",color:"hsl(277, 100%, 62%)" ,fontWeight:"500"}}>Contact</Link></li>
-                      </ul>)
+                  </ul>)
                     }
                   </div>
              </div> 
