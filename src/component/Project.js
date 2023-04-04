@@ -31,7 +31,7 @@ export default function Project() {
              <img src="Best-Ever-Meatloaf.jpg" alt="" />
               <h4>Recipe App</h4>
              <div className="two-link">
-              <p><a href="https://https://github.com/anikiyusuf/client" target="_blank" rel="noopener noreferrer">Github</a></p>
+              <p><a href="https://github.com/anikiyusuf/client" target="_blank" rel="noopener noreferrer">Github</a></p>
               <p><a href="https://me-recipe-app.netlify.app" target="_blank" rel="noopener noreferrer">Live</a></p>
             </div>
       </div>
@@ -58,7 +58,7 @@ export default function Project() {
         <img src="SeaContainer.png" alt="" />
             <h4>Transport & Logistics</h4>
         <div className="five-link">
-           <p><a href="https://https://github.com/anikiyusuf/nupat-app" target="_blank" rel="noopener noreferrer">Github</a></p>
+           <p><a href="https://github.com/anikiyusuf/nupat-app" target="_blank" rel="noopener noreferrer">Github</a></p>
            <p><a href="https://transport-logistics-nupat.netlify.app" target="_blank" rel="noopener noreferrer">Live</a></p>
         </div>
       </div>
@@ -66,7 +66,7 @@ export default function Project() {
            <img src="chatbot.png" alt="" />
               <h4>Chat Bot </h4>
            <div className="six-link">
-              <p><a href="https://https://github.com/anikiyusuf/Restaurant-Chatbot" target="_blank" rel="noopener noreferrer">Github</a></p>
+              <p><a href="https://github.com/anikiyusuf/Restaurant-Chatbot" target="_blank" rel="noopener noreferrer">Github</a></p>
               <p><a href="https://nikki-restaurant-chatbot.onrender.com" target="_blank" rel="noopener noreferrer">Live</a></p>
            </div>
          </div>
