@@ -1,555 +1,361 @@
 .projects{
-//    margin-top: 9rem;
-margin: 9rem 0 auto;
-}
-
-
-.projects > h1{
-    text-align: center;
-    text-transform: uppercase;
-    color: hsl(277, 100%, 62%);
-    margin-bottom: 2rem;
-}
-.projects-section{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap:1rem;
-    margin:0 3rem;
-
-}
-
-
-
-.projects-section > .project-one ,.project-two , .project-three , .project-four , .project-five , .project-six {
-    background: #fafaff;
-    width:100%;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    border-radius:.3rem;
-    text-align: center;
-    padding-top:1rem ;
+    margin: 9rem 0 auto;
+    }
     
-
-}
-.projects-section > .project-one:hover ,.project-two:hover , .project-three:hover , .project-four:hover , .project-five:hover , .project-six:hover {
-    background:hsl(206, 23%, 94%) ;
     
-   
-    
+    .projects > h1{
+        text-align: center;
+        text-transform: uppercase;
+        color: hsl(277, 100%, 62%);
+        margin-bottom: 2rem;
+    }
 
-}
-
-
-.project-one > img {
-    width:90%;
-    border-radius: .5rem;
-
-    
-}
-.project-two > img{
-    width:90%;
-    border-radius: .3rem;
-}
-.project-three > img {
-    width:90%;
-    border-radius: .3rem;
-}
-.project-four > img{
-    width:90%;
-    border-radius: .3rem;
-}
-.project-five > img{
-  width:90%;
-  border-radius: .3rem;
-}
- .project-six > img{
-    width:90%;
-    border-radius: .3rem;
-
-}
-
-.project-one > h4{
-   color: hsl(272, 96%, 10%);
-   padding-top: 1rem;
-}
-
-.project-one > .one-link{
-    display: flex;
-    text-align: center;
-    justify-content: space-between;
-    padding:1rem 2rem;
-}
-
-.project-one > .one-link >  p{
-    background: #fafaff;
-    width:35%;
-    text-align: center;
-    padding:.4rem;
-
-    color:hsl(277, 100%, 62%);
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
-
-// Hover Styling
-.project-one >.one-link > p:hover{
-    background-color:hsl(204, 100%, 40%) ;
-color: white;
-transition: 2s;
-}
-
-.project-two >.two-link > p:hover{
-    background-color:hsl(204, 100%, 40%) ;
-color: white;
-transition: 2s;
-}
-
-//Project-Two 
-
-.project-two > h4{
-    padding-top: 1rem;
-    color:hsl(272, 96%, 10%);
-}
-.project-two > .two-link{
-    display: flex;
-    text-align: center;
-    justify-content: space-between;
-    padding:1rem 2rem;
-}
-
-.project-two > .two-link >  p{
-    background: #fafaff;
-    width:35%;
-    text-align: center;
-    padding:.4rem;
-    color:hsl(277, 100%, 62%);
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
-.project-three >.three-link > p:hover{
-    background-color:hsl(204, 100%, 40%) ;
-color: white;
-transition: 2s;
-}
-.project-four >.four-link > p:hover{
-    background-color:hsl(204, 100%, 40%) ;
-    color: white;
-    transition: 2s;
-}
-.project-five >.five-link > p:hover{
-    background-color:hsl(204, 100%, 40%) ;
-     color: white;
-     transition: 2s;
-}
-
-.project-six >.six-link > p:hover{
-    background-color:hsl(204, 100%, 40%) ;
-color: white;
-transition: 2s;
-}
-
-// Project Three
-.project-three > .three-link{
-    display: flex;
-    text-align: center;
-    justify-content: space-between;
-    padding:1rem 2rem;
-}
-
-.project-three > h4{
-    padding-top: 1rem;
-    color:hsl(272, 96%, 10%);
-}
-
-
-.project-three > .three-link >  p{
-    background: #fafaff;
-    width:35%;
-    text-align: center;
-    padding:.4rem;
-    color:hsl(277, 100%, 62%);
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
-
-
-// Project Four
-.project-four > .four-link{
-    display: flex;
-    text-align: center;
-    justify-content: space-between;
-    padding:1rem 2rem;
-}
-
-.project-four > h4{
-    padding-top: 1rem;
-    color:hsl(272, 96%, 10%);
-}
-
-
-.project-four > .four-link >  p {
-    background: #fafaff;
-    width:35%;
-    text-align: center;
-    padding:.5rem;
-    color:hsl(277, 100%,62%);
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
-
-
-//Link Styling 
-.project-one > .one-link >  p > a{
-    text-decoration: none;
-    color:hsl(277, 100%,62%);
-}
-.project-one > .one-link >  p >a:hover{
-    color: white;
-    background-color:transparent;
-}
-.project-two > .two-link >  p > a{
-    text-decoration: none;
-    color:hsl(277, 100%,62%);
-}
-.project-two > .two-link >  p >a:hover{
-    color: white;
-    background-color:transparent;
-}
-.project-three > .three-link >  p > a{
-    text-decoration: none;
-    color:hsl(277, 100%,62%);
-}
-.project-three > .three-link >  p >a:hover{
-    color: white;
-    background-color:transparent;
-}
-.project-four > .four-link >  p > a{
-    text-decoration: none;
-    color:hsl(277, 100%,62%);
-}
-.project-four > .four-link >  p >a:hover{
-    color: white;
-    background-color:transparent;
-}
-
-.project-five > .five-link >  p > a{
-    text-decoration: none;
-    color:hsl(277, 100%,62%);
-}
-.project-five > .five-link >  p >a:hover{
-    color: white;
-    background-color:transparent;
-}
-.project-six > .six-link >  p > a{
-    text-decoration: none;
-    color:hsl(277, 100%,62%);
-}
-.project-six > .six-link >  p >a:hover{
-    color: white;
-    background-color:transparent;
-}
-//Project Five 
-.project-five > .five-link{
-    display: flex;
-    text-align: center;
-    justify-content: space-between;
-    padding:1rem 2rem;
-}
-
-.project-five > h4{
-    padding-top: 1rem;
-    color:hsl(272, 96%, 10%);
-}
-
-
-.project-five > .five-link >  p  {
-    background: #fafaff;
-    width:35%;
-    text-align: center;
-    padding:.4rem;
-    color:hsl(277, 100%, 62%);
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
-
-
-
-
-.project-six > .six-link{
-    display: flex;
-    text-align: center;
-    justify-content: space-between;
-    padding:1rem 2rem;
-}
-
-
-
-.project-six > h4{
-    padding-top: 1rem;
-    color:hsl(272, 96%, 10%);
-}
-
-
-.project-six > .six-link >  p{
-    background: #fafaff;
-    width:35%;
-    text-align: center;
-    padding:.4rem;
-    color:hsl(277, 100%, 62%);
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
-
-@media (max-width:992px){
     .projects-section{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap:1rem;
-        margin:0 2rem;
+        margin:0 3rem;
     
     }
+    
+    
+    
+    .projects-section > .project-one ,.project-two , .project-three , .project-four , .project-five , .project-six, .project-seven, .project-eight, .project-nine {
+        background: #fafaff;
+        width:100%;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        border-radius:.3rem;
+        text-align: center;
+        padding-top:1rem ;
+        
+    
+    }
+    .projects-section > .project-one:hover ,.project-two:hover , .project-three:hover , .project-four:hover , .project-five:hover , .project-six:hover , .project-seven:hover, .project-eight:hover, .project-nine:hover {
+        background:hsl(206, 23%, 94%) ;
+    }
+    
+    
+    .project-one > img {
+        width:60%;
+        border-radius: .5rem;
+    
+        
+    }
+    .project-two > img{
+        width:60%;
+        border-radius: .3rem;
+    }
+    .project-three > img {
+        width:60%;
+        border-radius: .3rem;
+    }
+    .project-four > img{
+        width:60%;
+        border-radius: .3rem;
+    }
+    .project-five > img{
+      width:60%;
+      border-radius: .3rem;
+    }
+     .project-six > img{
+        width:60%;
+        border-radius: .3rem;
+    }
+    .project-seven > img{
+        width:50%;
+        border-radius: .3rem;
+    }
+    .project-eight > img{
+        width:60%;
+        border-radius: .3rem;
+    }
+    
+    .project-nine > img{
+        width:80%;
+        border-radius: .3rem;
+    }
+    
+    
     .project-one > h4{
-        color: hsl(272, 96%, 10%);
-        padding-top: 1rem;
-        font-size: .8rem;
-     }
-     .project-two > h4{
-        color: hsl(272, 96%, 10%);
-        padding-top: 1rem;
-        font-size: .8rem;
-     }
-
-     .project-three > h4{
-        color: hsl(272, 96%, 10%);
-        padding-top: 1rem;
-        font-size: .8rem;
-     }
-     .project-four > h4{
-        color: hsl(272, 96%, 10%);
-        padding-top: 1rem;
-        font-size: .8rem;
-     }
-
-     .project-five > h4{
-        color: hsl(272, 96%, 10%);
-        padding-top: 1rem;
-        font-size: .8rem;
-     }
-     .project-six > h4{
-        color: hsl(272, 96%, 10%);
-        padding-top: 1rem;
-        font-size: .8rem;
-     }
-    //  project links
-
-    .project-one > .one-link >  p{
-        background: #fafaff;
-        width:40%;
-        text-align: center;
-        padding:.3rem;
-        color:hsl(277, 100%, 62%);
-        font-size: .8rem;
-        font-weight: 400;
-        font-weight: 500;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    }
-
-    .project-two > .two-link >  p{
-        background: #fafaff;
-        width:40%;
-        text-align: center;
-        padding:.3rem;
-        color:hsl(277, 100%, 62%);
-        font-size: .8rem;
-        font-weight: 400;
-        font-weight: 500;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+       color: hsl(272, 96%, 10%);
+       padding-top: 1rem;
     }
     
-    .project-three > .three-link >  p{
-        background: #fafaff;
-        width:40%;
-        text-align: center;
-        padding:.3rem;
-        font-size: .8rem;
-        font-weight: 400;
-        font-weight: 500;
-        color:hsl(277, 100%, 62%);
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    }
-    
-    .project-four > .four-link >  p{
-        background: #fafaff;
-        width:40%;
-        text-align: center;
-        padding:.3rem;
-        font-size: .8rem;
-        font-weight: 400;
-        font-weight: 500;
-        color:hsl(277, 100%, 62%);
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    }
-    
-    .project-five > .five-link >  p{
-        background: #fafaff;
-        width:40%;
-        text-align: center;
-        padding:.3rem;
-        font-size: .8rem;
-        font-weight: 400;
-        font-weight: 500;
-        color:hsl(277, 100%, 62%);
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    }
-    
- .project-six > .six-link >  p{
-        background: #fafaff;
-        width:40%;
-        text-align: center;
-
-        padding:.3rem;
-        color:hsl(277, 100%, 62%);
-
-        font-size: .8rem;
-         font-weight: 500;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    } 
-   
-}
-
-@media (max-width:768px){
-    .projects-section{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap:1rem;
-        margin:0 2rem;
-    
-    }
-    
-}
-
-
-@media (max-width:600px){
-    .projects-section{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap:1rem;
-        margin:0 2rem;
-    
-    }
     .project-one > .one-link{
-         padding:1rem 1rem;
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        padding:1rem 2rem;
+    }
+    
+    
+    //Project-Two 
+    
+    .project-two > h4{
+        padding-top: 1rem;
+        color:hsl(272, 96%, 10%);
     }
     .project-two > .two-link{
-        padding:1rem 1rem;
-   }
-   .project-three > .three-link{
-    padding:1rem 1rem;
-}
-
-.project-four > .four-link{
-    padding:1rem 1rem;
-}
-
-.project-five > .five-link{
-    padding:1rem 1rem;
-}
-.project-six> .six-link{
-    padding:1rem 1rem;
-}
-
-
-
-
-
-    .project-one > h4{
-        color: hsl(272, 96%, 10%);
-        padding-top: 1rem;
-        font-size: .8rem;
-     }
-     .project-two > h4{
-        color: hsl(272, 96%, 10%);
-        padding-top: 1rem;
-        font-size: .8rem;
-     }
-
-     .project-three > h4{
-        color: hsl(272, 96%, 10%);
-        padding-top: 1rem;
-        font-size: .8rem;
-     }
-     .project-four > h4{
-        color: hsl(272, 96%, 10%);
-        padding-top: 1rem;
-        font-size: .8rem;
-     }
-
-     .project-five > h4{
-        color: hsl(272, 96%, 10%);
-        padding-top: 1rem;
-        font-size: .8rem;
-     }
-     .project-six > h4{
-        color: hsl(272, 96%, 10%);
-        padding-top: 1rem;
-        font-size: .8rem;
-     }
-    //  project links
-
-    .project-one > .one-link >  p{
-        background: #fafaff;
-        width:45%;
+        display: flex;
         text-align: center;
-        padding:.3rem;
-        color:hsl(277, 100%, 62%);
-        font-size: .6rem;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    }
-
-    .project-two > .two-link >  p{
-        background: #fafaff;
-        width:45%;
-        text-align: center;
-        padding:.3rem;
-        color:hsl(277, 100%, 62%);
-        font-size: .6rem;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        justify-content: space-between;
+        padding:1rem 2rem;
     }
     
-    .project-three > .three-link >  p{
-        background: #fafaff;
-        width:45%;
+    
+    // Project Three
+    .project-three > .three-link{
+        display: flex;
         text-align: center;
-        padding:.3rem;
-        font-size: .6rem;
-        color:hsl(277, 100%, 62%);
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        justify-content: space-between;
+        padding:1rem 2rem;
+        cursor: pointer;
     }
     
-    .project-four > .four-link >  p{
-        background: #fafaff;
-        width:45%;
-        text-align: center;
-        padding:.3rem;
-        font-size: .6rem;
-        color:hsl(277, 100%, 62%);
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    
+    
+    .project-three > h4{
+        padding-top: 1rem;
+        color:hsl(272, 96%, 10%);
     }
     
-    .project-five > .five-link >  p{
-        background: #fafaff;
-        width:45%;
+    
+    
+    
+    // Project Four
+    .project-four > .four-link{
+        display: flex;
         text-align: center;
-        padding:.3rem;
-        font-size: .6rem;
-        color:hsl(277, 100%, 62%);
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        justify-content: space-between;
+        padding:1rem 2rem;
     }
     
- .project-six > .six-link >  p{
-        background: #fafaff;
-        width:45%;
+    .project-four > h4{
+        padding-top: 1rem;
+        color:hsl(272, 96%, 10%);
+    }
+    
+    
+    
+    
+      .btn--github , .btn--live{
+        color:hsl(277, 100%,62%);
+        border: none;
         text-align: center;
-
-        padding:.3rem;
-        color:hsl(277, 100%, 62%);
-
-        font-size: .6rem;
-
+        background: #fafaff;
+        padding:.5rem;
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    }  
-}
+        cursor: pointer;
+    }
+    //Project Five 
+    .project-five > .five-link{
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        padding:1rem 2rem;
+    }
+    
+    .project-five > h4{
+        padding-top: 1rem;
+        color:hsl(272, 96%, 10%);
+    }
+    
+    
+    
+    
+    
+    .project-six > .six-link{
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        padding:1rem 2rem;
+    }
+    
+    
+    
+    .project-six > h4{
+        padding-top: 1rem;
+        color:hsl(272, 96%, 10%);
+    }
+        .project-six > .six-link{
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        padding:1rem 2rem;
+    }
+    
+    
+    
+    .project-seven > h4{
+        padding-top: 1rem;
+        color:hsl(272, 96%, 10%);
+    }
+
+    .project-seven > .seven-link{
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        padding:1rem 2rem;
+    }
+    
+    .project-eight > h4{
+        padding-top: 1rem;
+        color:hsl(272, 96%, 10%);
+    }
+
+    .project-eight > .eight-link{
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        padding:1rem 2rem;
+    }
+    
+    
+    .project-nine > h4{
+        padding-top: 1rem;
+        color:hsl(272, 96%, 10%);
+    }
+
+    .project-nine > .nine-link{
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        padding:1rem 2rem;
+    }
+    
+    
+ 
+
+    @media (max-width:992px){
+        .projects-section{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap:1rem;
+            margin:0 2rem;
+        
+        }
+        .project-one > h4{
+            color: hsl(272, 96%, 10%);
+            padding-top: 1rem;
+            font-size: .8rem;
+         }
+         .project-two > h4{
+            color: hsl(272, 96%, 10%);
+            padding-top: 1rem;
+            font-size: .8rem;
+         }
+    
+         .project-three > h4{
+            color: hsl(272, 96%, 10%);
+            padding-top: 1rem;
+            font-size: .8rem;
+         }
+         .project-four > h4{
+            color: hsl(272, 96%, 10%);
+            padding-top: 1rem;
+            font-size: .8rem;
+         }
+    
+         .project-five > h4{
+            color: hsl(272, 96%, 10%);
+            padding-top: 1rem;
+            font-size: .8rem;
+         }
+         .project-six > h4{
+            color: hsl(272, 96%, 10%);
+            padding-top: 1rem;
+            font-size: .8rem;
+         }
+        //  project links
+        .project-seven > h4{
+            color: hsl(272, 96%, 10%);
+            padding-top: 1rem;
+            font-size: .8rem;
+         }
+         .project-eight > h4{
+            color: hsl(272, 96%, 10%);
+            padding-top: 1rem;
+            font-size: .8rem;
+         }
+         .project-nine > h4{
+            color: hsl(272, 96%, 10%);
+            padding-top: 1rem;
+            font-size: .8rem;
+         }
+       
+    }
+    
+    @media (max-width:768px){
+        .projects-section{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap:1rem;
+            margin:0 2rem;
+        
+        }
+        
+    }
+    
+    
+    @media (max-width:600px){
+        .projects-section{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap:1rem;
+            margin:0 2rem;
+        
+        }
+
+ .project-one > h4{
+            color: hsl(272, 96%, 10%);
+            padding-top: 1rem;
+            font-size: .8rem;
+         }
+         .project-two > h4{
+            color: hsl(272, 96%, 10%);
+            padding-top: 1rem;
+            font-size: .8rem;
+         }
+    
+         .project-three > h4{
+            color: hsl(272, 96%, 10%);
+            padding-top: 1rem;
+            font-size: .8rem;
+         }
+         .project-four > h4{
+            color: hsl(272, 96%, 10%);
+            padding-top: 1rem;
+            font-size: .8rem;
+         }
+    
+         .project-five > h4{
+            color: hsl(272, 96%, 10%);
+            padding-top: 1rem;
+            font-size: .8rem;
+         }
+         .project-six > h4{
+            color: hsl(272, 96%, 10%);
+            padding-top: 1rem;
+            font-size: .8rem;
+         }
+
+         .project-seven  > h4{
+            color: hsl(272, 96%, 10%);
+            padding-top: 1rem;
+            font-size: .8rem;
+         }
+         .project-eight > h4{
+            color: hsl(272, 96%, 10%);
+            padding-top: 1rem;
+            font-size: .8rem;
+         }
+         .project-nine > h4{
+            color: hsl(272, 96%, 10%);
+            padding-top: 1rem;
+            font-size: .8rem;
+         }
+
+
+
+    }
