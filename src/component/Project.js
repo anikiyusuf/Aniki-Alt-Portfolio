@@ -16,45 +16,6 @@ export default function Project() {
     <section className="projects" id="project">
         <h1>Projects</h1>
          <div className="projects-section">
-         <div className="project-seven">
-            <img src="IMG_1426.jpg" alt="" />
-            <h4>Tofagraphy</h4>
-       <div className="seven-link">
-           <form href="https://github.com/BreinsteinMedia/tofagraphy/tree/master" method="get" target="_blank">
-              <button  type="submit" className="btn--github">Github</button>
-        </form>
-        <form href="https://tofagraphy.com/" method="get" target="_blank">
-              <button  type="submit" class="btn--live">Server</button>
-        </form>
-        </div>
-       
-      </div>
-
-      <div className="project-eight">
-            <img src="qr-code.png" alt="" />
-            <h4>  Shortly</h4>
-       <div className="eight-link">
-           <form href="https://github.com/anikiyusuf/shortly" method="get" target="_blank">
-              <button  type="submit" className="btn--github">Github</button>
-        </form>
-         <form href="https://shortly-ly.onrender.com" method="get" target="_blank">
-              <button  type="submit" class="btn--live">Server</button>
-        </form>
-        </div>
-     </div>
-
-     <div className="project-nine">
-            <img src="home4.jpg" alt="" />
-            <h4>Movie App</h4>
-       <div className="nine-link">
-           <form href="https://github.com/anikiyusuf/movie-projec" method="get" target="_blank">
-              <button  type="submit" className="btn--github">Github</button>
-        </form>
-        <form href="https://movie-projecct.netlify.app/" method="get" target="_blank">
-              <button  type="submit" class="btn--live">Server</button>
-        </form>
-        </div>
-     </div>
          <div className="project-one">
             <img src={active} alt="" />
             <h4>Launch countdown </h4>
@@ -137,7 +98,45 @@ export default function Project() {
          </div>
      
 
+       <div className="project-seven">
+            <img src="IMG_1426.jpg" alt="" />
+            <h4>Tofagraphy</h4>
+       <div className="seven-link">
+           <form href="https://github.com/BreinsteinMedia/tofagraphy/tree/master" method="get" target="_blank">
+              <button  type="submit" className="btn--github">Github</button>
+        </form>
+        <form href="https://tofagraphy.com/" method="get" target="_blank">
+              <button  type="submit" class="btn--live">Server</button>
+        </form>
+        </div>
+       
+      </div>
 
+      <div className="project-eight">
+            <img src="qr-code.png" alt="" />
+            <h4>  Shortly</h4>
+       <div className="eight-link">
+           <form href="https://github.com/anikiyusuf/shortly" method="get" target="_blank">
+              <button  type="submit" className="btn--github">Github</button>
+        </form>
+         <form href="https://shortly-ly.onrender.com" method="get" target="_blank">
+              <button  type="submit" class="btn--live">Server</button>
+        </form>
+        </div>
+     </div>
+
+     <div className="project-nine">
+            <img src="home4.jpg" alt="" />
+            <h4>Movie App</h4>
+       <div className="nine-link">
+           <form href="https://github.com/anikiyusuf/movie-projec" method="get" target="_blank">
+              <button  type="submit" className="btn--github">Github</button>
+        </form>
+        <form href="https://movie-projecct.netlify.app/" method="get" target="_blank">
+              <button  type="submit" class="btn--live">Server</button>
+        </form>
+        </div>
+     </div> 
    </div>
      </section>
      </>
