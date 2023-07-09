@@ -37,7 +37,7 @@ export default function Project() {
            <form href="https://github.com/anikiyusuf/shortly" method="get" target="_blank">
               <button  type="submit" className="btn--github">Github</button>
         </form>
-        <form href="https://shortly-ly.onrender.com" method="get" target="_blank">
+         <form href="https://shortly-ly.onrender.com" method="get" target="_blank">
               <button  type="submit" class="btn--live">Server</button>
         </form>
         </div>
